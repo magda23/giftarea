@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>giftarea</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/swiperSlider/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" text="text/css" href="plugin/fontawesome/css/all.min.css">
+    <link rel="stylesheet" text="text/css" href="css/fonts.css">
+    <link rel="stylesheet" text="text/css" href="css/reset.css">
+    <link rel="stylesheet" text="text/css" href="css/style.css?v=1">
+    <link rel="stylesheet" text="text/css" href="css/responsive.css?v=1">
+</head>
+
+<body>
+    <header>
+        <div class="top_header">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="contact_item d-flex align-items-center">
+                        <img src="img/headphonesalt.svg" alt="" class="mr-1">
+                        <a href="tel:032 2112255">032 2112255</a>
+                    </div>
+                    <div class="contact_item d-flex align-items-center">
+                        <img src="img/facebook.svg" alt="" class="mr-1">
+                        <a href="#">giftarea.ge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container middle_header">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="logo_">
+                    <div class="logo_img">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                </a>
+                <div class="search_">
+                    <input type="text" placeholder="ვეძებ...">
+                    <img src="img/search.svg" alt="" class="search_icon">
+                </div>
+                <div class="authorization_block d-flex align-items-center">
+                    <button type="button" class="modal_btn" data-toggle="modal" data-target="#exampleModal">
+                        <div class="sign_ d-flex align-items-center">
+                            <p class="sign_title d-xl-block d-none">ავტორიზაცია</p>
+                            <img src="img/person-circle.svg" alt="">
+                        </div>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog sign_modal" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="tab_wrapper">
+                                        <div class="tab_buttons_wrap">
+                                            <ul>
+                                                <li id="tab1" class="tab_buttons tab_btn_act">
+                                                    <div class="tab_btn">
+                                                        <div>ავტორიზაცია</div>
+                                                    </div>
+                                                </li>
+                                                <li id="tab2" class="tab_buttons">
+                                                    <div class="tab_btn">
+                                                        <div>რეგისტრაცია</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tabs_content_block">
+                                            <div id="tab1_content" class="tabs_box show_tabs">
+                                                <div class="sign_block">
+                                                    <form>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="ელ.ფოსტა">
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="პაროლი">
+                                                        </div>
+                                                    </form>
+                                                    <ul class="unstyled save_check">
+                                                        <li>
+                                                            <input class="styled-checkbox" id="styled-checkbox-1"
+                                                                type="checkbox" value="value1">
+                                                            <label for="styled-checkbox-1">დამახსოვრება</label>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <button class="save_btn">
+                                                            ავტორიზაცია
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="tab2_content" class="tabs_box">
+                                                <div class="sign_block">
+                                                    <form>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="სახელი, გვარი">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div class="gender_select">
+                                                            <div class="select_block">
+                                                                <select class="selectpicker">
+                                                                    <option>სქესი</option>
+                                                                    <option>ქალი</option>
+                                                                    <option>კაცი</option>
+                                                                </select>
+                                                                <img src="img/icon_.svg" alt="" class="icon_">
+                                                            </div>
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="ელ.ფოსტა">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div
+                                                            class="password_block d-flex align-items-center justify-content-between">
+                                                            <div class="sign_input">
+                                                                <input type="text" placeholder="პაროლი">
+                                                            </div>
+                                                            <div class="sign_input">
+                                                                <input type="text" placeholder="გაიმეორეთ პაროლი">
+                                                                <img src="img/icon_.svg" alt="" class="icon_">
+                                                            </div>
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="სახელი, გვარი">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="select_birth_block">
+                                                                <select class="selectpicker">
+                                                                    <option>დღე</option>
+                                                                    <option>დღე</option>
+                                                                    <option>დღე</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select_birth_block ">
+                                                                <select class="selectpicker">
+                                                                    <option>თვე</option>
+                                                                    <option>თვე</option>
+                                                                    <option>თვე</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select_birth_block ">
+                                                                <select class="selectpicker">
+                                                                    <option>წელი</option>
+                                                                    <option>წელი</option>
+                                                                    <option>წელი</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+                                                    </form>
+                                                    <ul class="unstyled save_check">
+                                                        <li>
+                                                            <input class="styled-checkbox" id="styled-checkbox-2"
+                                                                type="checkbox" value="value2">
+                                                            <label for="styled-checkbox-2">ვეთანხმები
+                                                                ხელშეკრულებას</label>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <button class="save_btn">
+                                                            რეგისტრაცია
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bag_">
+                        <img src="img/bag.svg" alt="">
+                        <div class="num_">
+                            <p>3</p>
+                        </div>
+                    </div>
+                    <div class="total_cost d-xl-block d-none">
+                        345 ლ.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header d-lg-block d-none">
+            <div class="container">
+                <ul class="list_ul d-flex align-items-center">
+                    <li class="list_li">
+                        <a href="#">პერსონალიზირებული საჩუქრები</a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">
+                            ყვავილების თაიგული
+                        </a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">
+                            შოკოლადის თაიგული
+                        </a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">სასაჩუქრე კალათები</a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">სადღესასწაულო ტორტები</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile_menu_block d-lg-none d-block">
+            <div class="container">
+                <div class="mobile_menu_items">
+                    <div class="nav_right_side d-flex align-items-center">
+                        <div class="burger_menu">
+                            <div class="burger__">
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_navigation">
+                <div class="container">
+                    <ul class="nav_ul">
+                        <li class="nav_li">
+                            <a href="#">
+                                პერსონალიზებული საჩუქრები
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">
+                                ყვავილების თაიგული
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">
+                                შოკოლადის თაიგული
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">სასაჩუქრე კალათები</a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">სადღესასწაულო ტორტები</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main_section">
+            <div class="container">
+                <h4 class="secondary_title">
+                    FAQ
+                </h4>
+                <div class="faq_block">
+                    <div class="wrapper center-block">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                            როგორ შევავსო Nova-ს ბალანსი
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            რა ღირს ადგილზე მიწოდება?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            რა დრო სჭირდება პროდუქციის ადგილზე მიტანას?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            შესაძლებელია ნაღდი ფორმით ანგარიშსწორება?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            როგორ ვიყიდოთ ორგანიზაციის სახელით?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingFive">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingSix">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                            პერსონალიზებული საჩუქრის დიზაინი
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingSix">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingSeven">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven">
+                                            კონტაქტი
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingSeven">
+                                    <div class="panel-body">
+                                        <div class="information_block">
+                                            <p>თბილისის ფარგლებში მიწოდება ხდება შეკვეთიდან არაუგვიანეს 2 სამუშაო დღისა.
+                                            </p>
+                                            <p>
+                                                რეგიონებში პროდუქციის მიწოდება ხორციელდება ჩვენი პარტნიორი ორგანიზაციის
+                                                "საქართველოს ფოსტის" მიერ. მიწოდების ვადა შეადგენს 2-3 სამუშაო დღეს.
+                                            </p>
+                                            <p>პროდუქტის სპეციფიკიდან გამომდინარე აღწერაში მითითებული იქნება მიწოდების
+                                                შესახებ დამატებითი ინფორმაცია.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer_">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 md-mb-0 mb-5">
+                    <div class="footer_info">
+                        <a href="#">
+                            <div class="footer_logo mb-4">
+                                <img src="img/logo _1.svg" alt="">
+                            </div>
+                        </a>
+                        <div class="copy_">Copyright 2021. Giftarea.Ge. ყველა უფლება დაცულია</div>
+                        <div class="created_">
+                            Created by <span class="created_by">ProService</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 md-mb-0 mb-5">
+                    <div class="footer_info border_none">
+                        <ul class="footer_ul">
+                            <li class="footer_li">
+                                <a href="#">პირობები და წესები</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">რეგისტრაცია</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">ბლოგი</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">მიტანის სერვისი</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 md-sm-0 mb-5">
+                    <div class="footer_info">
+                        <div class="footer_contact">
+                            <div class="contact_item d-flex align-items-center mb-4">
+                                <img src="img/headphonesalt.svg" alt="" class="mr-3">
+                                <a href="tel:032 2112255">032 2112255</a>
+                            </div>
+                            <div class="contact_item d-flex align-items-center">
+                                <img src="img/facebook.svg" alt="" class="mr-3">
+                                <a href="#">giftarea.ge</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="bank_item">
+                        <ul class="bank_ul">
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/tbc.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/visa.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/mastercard.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="plugin/swiperSlider/js/swiper.min.js"></script> -->
+    <script src="plugin/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="plugin/bootstrap-4.0.0/js/popper.min.js"></script>
+    <script src="plugin/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <script src="js/app.js?v=1"></script>
+
+    <script>
+        const tabButtons = document.querySelectorAll('.tab_buttons')
+        const tabContentBoxs = document.querySelectorAll('.tabs_box')
+
+        function removeActiveClassOnTabs(array1, array2) {
+            array1.forEach(function (tabContent) {
+                tabContent.classList.remove('show_tabs');
+            });
+            array2.forEach(function (tabButtons) {
+                tabButtons.classList.remove('tab_btn_act');
+            })
+        }
+
+        function selectTabs(button) {
+            let id = button.getAttribute('id');
+            removeActiveClassOnTabs(tabContentBoxs, tabButtons);
+            let tabContent = document.querySelector(`#${id}_content`);
+            tabContent.classList.add('show_tabs');
+            button.classList.add('tab_btn_act');
+        }
+        tabButtons.forEach(function (tabButtons) {
+            tabButtons.addEventListener('click', function () {
+                selectTabs(tabButtons);
+            });
+        });
+    </script>
+    <script>
+        $('.panel-collapse').on('show.bs.collapse', function () {
+            $(this).siblings('.panel-heading').addClass('active');
+        });
+
+        $('.panel-collapse').on('hide.bs.collapse', function () {
+            $(this).siblings('.panel-heading').removeClass('active');
+        });
+    </script>
+
+</body>
+
+</html>

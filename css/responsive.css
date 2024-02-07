@@ -1,0 +1,442 @@
+@media(min-width: 1280px) {
+    .container {
+        max-width: 1250px;
+    }
+}
+
+@media(min-width: 1300px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .container {
+        max-width: 1380px;
+    }
+}
+
+@media(max-width: 1400px) {
+
+    .price_ {
+        font-size: 18px;
+        width: 126px;
+    }
+
+    .search_ input {
+        width: 500px;
+    }
+
+    .slider_block {
+        height: 450px;
+    }
+
+    .info_title {
+        font-size: 50px;
+        padding: 65px 0 50px;
+    }
+
+    .sign_title,
+    .total_cost {
+        font-size: 18px;
+    }
+
+    .middle_header {
+        padding: 10px 15px;
+    }
+
+    .list_li {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .slide_title_ {
+        padding: 40px 0;
+        font-size: 40px;
+    }
+
+    .slide_li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .filter_input input {
+        width: 110px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .price_ {
+        width: 110px;
+    }
+
+    .addto_basket img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .conditions_list {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 1200px) {
+    .filter_info {
+        padding: 20px;
+    }
+
+    .filter_title {
+        font-size: 17px;
+    }
+
+    .list_li {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .popular_info {
+        flex-direction: column;
+    }
+
+    .footer_ul,
+    .footer_contact,
+    .bank_item {
+        padding: 0;
+    }
+
+    .s3 {
+        height: 480px;
+    }
+
+    .s2 .swiper-slide {
+        height: 160px;
+    }
+
+    .s4 .price_block {
+        flex-direction: initial !important;
+    }
+
+    .product_qunatity_block,
+    .product_information .addto_basket {
+        margin-bottom: 20px;
+    }
+
+    .qunatity_,
+    .product_num_input {
+        margin-right: 15px;
+    }
+
+    .product_name {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .sub_info {
+        font-size: 16px;
+    }
+
+    .delivery_info {
+        flex-direction: column;
+    }
+
+    .delivery_items {
+        margin: 0 0 20px 0;
+    }
+
+    .delivery_items:last-child {
+        margin: 0;
+    }
+
+    .delivery_items img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .blog_img {
+        height: 360px;
+    }
+
+    .blog_inner_content {
+        padding: 30px;
+    }
+
+    .content_title {
+        font-size: 16px;
+    }
+
+    .blog_info {
+        padding-bottom: 120px;
+    }
+}
+
+@media(max-width: 991px) {
+    .search_ input {
+        width: 280px;
+    }
+
+    .slider_block {
+        height: 380px;
+    }
+
+    .info_title {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .slide_title_ {
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .slide_li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .price_block,
+    .price_filter {
+        flex-direction: column;
+    }
+
+    .filter_input {
+        margin-bottom: 10px;
+    }
+
+    .filter_input:last-child {
+        margin-bottom: 0px;
+    }
+
+    .price_ {
+        margin-bottom: 10px;
+    }
+
+    .s4 .price_ {
+        margin-bottom: 0;
+    }
+
+    .border_none {
+        border: none;
+    }
+
+    .logo_img {
+        width: 140px;
+    }
+
+    .logo_img img {
+        width: 100%;
+    }
+
+    .delivery_input,
+    .delivery_input_,
+    .delivery_address,
+    .recovery_btn {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .delivery_box {
+        flex-wrap: wrap;
+    }
+
+    .order_btn {
+        margin-bottom: 0;
+    }
+
+    .panel-body {
+        width: 100%;
+    }
+
+    .blog_img_ {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media(max-width: 767px) {
+    .password_block {
+        flex-direction: column;
+    }
+
+    .password_block .sign_input {
+        width: 100%;
+    }
+
+    .sign_modal {
+        max-width: 500px;
+    }
+
+    .sign_modal .modal-body {
+        padding: 15px;
+    }
+
+    .tab_buttons,
+    .gender_select button,
+    .select_birth_block button {
+        font-size: 14px;
+    }
+
+    .sign_input input::placeholder {
+        font-size: 14px;
+    }
+
+    .modal_btn {
+        margin: 0;
+    }
+
+    .bag_ {
+        display: none;
+    }
+
+    .search_ input {
+        width: 220px;
+    }
+
+    .footer_ {
+        padding: 15px 0;
+    }
+
+    .product_title {
+        margin-bottom: 15px;
+    }
+
+    .slider_block img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .tab_buttons {
+        width: 48%;
+    }
+
+    .tab_btn,
+    .profile_block .tab_btn {
+        width: 100%;
+    }
+
+    .product_items {
+        flex-direction: column-reverse;
+    }
+
+    .product_information {
+        margin-top: 40px;
+    }
+
+    .s4 .addto_basket {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .s4 .addto_basket img {
+        margin-bottom: 5px;
+    }
+
+    .cart_items {
+        flex-wrap: wrap;
+    }
+
+    .cart_block {
+        flex-direction: column;
+    }
+
+    .order_img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .order_title {
+        margin-bottom: 20px;
+    }
+
+    .blog_information {
+        flex-direction: column;
+    }
+
+    .blog_img_ {
+        width: 100%;
+        height: 250px;
+        margin-left: 0;
+        float: initial;
+    }
+}
+
+@media(max-width: 575px) {
+    .search_ input {
+        width: 180px;
+    }
+
+    .footer_info {
+        border: none;
+    }
+
+    .product_qunatity_block .price_ {
+        width: 110px !important;
+
+    }
+
+    .price_ {
+        width: 100%;
+    }
+
+    .info_title {
+        font-size: 25px;
+    }
+
+    .slide_title_ {
+        font-size: 20px;
+    }
+
+    .sign_ img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .s3 {
+        height: 400px;
+    }
+
+    .product_img {
+        height: 180px;
+    }
+
+    .pay_btn {
+        width: 100%;
+    }
+
+    .order_txt,
+    .order_detail {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .sub_title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .cost_,
+    .total_sum {
+        font-size: 16px;
+    }
+
+    .qunatity_ {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 480px) {
+    .s3 {
+        height: 250px;
+    }
+
+    .logo_img {
+        width: 125px;
+    }
+
+    .search_ input {
+        width: 160px;
+    }
+}

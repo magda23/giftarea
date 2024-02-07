@@ -1,0 +1,5 @@
+<svg id="person-circle" xmlns="http://www.w3.org/2000/svg" width="35.956" height="35.956" viewBox="0 0 35.956 35.956">
+  <path id="Path_6" data-name="Path 6" d="M30.273,27.825c-1.6-2.57-5.108-5.325-12.288-5.325S7.3,25.253,5.7,27.826a15.73,15.73,0,0,0,24.576,0Z" transform="translate(-0.007 -0.028)" fill="#ed3237"/>
+  <path id="Path_7" data-name="Path 7" d="M17.992,20.233a6.742,6.742,0,1,0-6.742-6.742A6.742,6.742,0,0,0,17.992,20.233Z" transform="translate(-0.014 -0.008)" fill="#ed3237" fill-rule="evenodd"/>
+  <path id="Path_8" data-name="Path 8" d="M17.978,2.247A15.731,15.731,0,1,0,33.708,17.978,15.731,15.731,0,0,0,17.978,2.247ZM0,17.978A17.978,17.978,0,1,1,17.978,35.956,17.978,17.978,0,0,1,0,17.978Z" fill="#ed3237" fill-rule="evenodd"/>
+</svg>

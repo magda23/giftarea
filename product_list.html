@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>giftarea</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/swiperSlider/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" text="text/css" href="plugin/fontawesome/css/all.min.css">
+    <link rel="stylesheet" text="text/css" href="css/fonts.css">
+    <link rel="stylesheet" text="text/css" href="css/reset.css">
+    <link rel="stylesheet" text="text/css" href="css/style.css?v=1">
+    <link rel="stylesheet" text="text/css" href="css/responsive.css?v=1">
+</head>
+
+<body>
+    <header>
+        <div class="top_header">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="contact_item d-flex align-items-center">
+                        <img src="img/headphonesalt.svg" alt="" class="mr-1">
+                        <a href="tel:032 2112255">032 2112255</a>
+                    </div>
+                    <div class="contact_item d-flex align-items-center">
+                        <img src="img/facebook.svg" alt="" class="mr-1">
+                        <a href="#">giftarea.ge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container middle_header">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="logo_">
+                    <div class="logo_img">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                </a>
+                <div class="search_">
+                    <input type="text" placeholder="ვეძებ...">
+                    <img src="img/search.svg" alt="" class="search_icon">
+                </div>
+                <div class="authorization_block d-flex align-items-center">
+                    <button type="button" class="modal_btn" data-toggle="modal" data-target="#exampleModal">
+                        <div class="sign_ d-flex align-items-center">
+                            <p class="sign_title d-xl-block d-none">ავტორიზაცია</p>
+                            <img src="img/person-circle.svg" alt="">
+                        </div>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog sign_modal" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="tab_wrapper">
+                                        <div class="tab_buttons_wrap">
+                                            <ul>
+                                                <li id="tab1" class="tab_buttons tab_btn_act">
+                                                    <div class="tab_btn">
+                                                        <div>ავტორიზაცია</div>
+                                                    </div>
+                                                </li>
+                                                <li id="tab2" class="tab_buttons">
+                                                    <div class="tab_btn">
+                                                        <div>რეგისტრაცია</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tabs_content_block">
+                                            <div id="tab1_content" class="tabs_box show_tabs">
+                                                <div class="sign_block">
+                                                    <form>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="ელ.ფოსტა">
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="პაროლი">
+                                                        </div>
+                                                    </form>
+                                                    <ul class="unstyled save_check">
+                                                        <li>
+                                                            <input class="styled-checkbox" id="styled-checkbox-1"
+                                                                type="checkbox" value="value1">
+                                                            <label for="styled-checkbox-1">დამახსოვრება</label>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <button class="save_btn">
+                                                            ავტორიზაცია
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="tab2_content" class="tabs_box">
+                                                <div class="sign_block">
+                                                    <form>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="სახელი, გვარი">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div class="gender_select">
+                                                            <div class="select_block">
+                                                                <select class="selectpicker">
+                                                                    <option>სქესი</option>
+                                                                    <option>ქალი</option>
+                                                                    <option>კაცი</option>
+                                                                </select>
+                                                                <img src="img/icon_.svg" alt="" class="icon_">
+                                                            </div>
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="ელ.ფოსტა">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div
+                                                            class="password_block d-flex align-items-center justify-content-between">
+                                                            <div class="sign_input">
+                                                                <input type="text" placeholder="პაროლი">
+                                                            </div>
+                                                            <div class="sign_input">
+                                                                <input type="text" placeholder="გაიმეორეთ პაროლი">
+                                                                <img src="img/icon_.svg" alt="" class="icon_">
+                                                            </div>
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="სახელი, გვარი">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="select_birth_block">
+                                                                <select class="selectpicker">
+                                                                    <option>დღე</option>
+                                                                    <option>დღე</option>
+                                                                    <option>დღე</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select_birth_block ">
+                                                                <select class="selectpicker">
+                                                                    <option>თვე</option>
+                                                                    <option>თვე</option>
+                                                                    <option>თვე</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select_birth_block ">
+                                                                <select class="selectpicker">
+                                                                    <option>წელი</option>
+                                                                    <option>წელი</option>
+                                                                    <option>წელი</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+                                                    </form>
+                                                    <ul class="unstyled save_check">
+                                                        <li>
+                                                            <input class="styled-checkbox" id="styled-checkbox-2"
+                                                                type="checkbox" value="value2">
+                                                            <label for="styled-checkbox-2">ვეთანხმები
+                                                                ხელშეკრულებას</label>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <button class="save_btn">
+                                                            რეგისტრაცია
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bag_">
+                        <img src="img/bag.svg" alt="">
+                        <div class="num_">
+                            <p>3</p>
+                        </div>
+                    </div>
+                    <div class="total_cost d-xl-block d-none">
+                        345 ლ.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header d-lg-block d-none">
+            <div class="container">
+                <ul class="list_ul d-flex align-items-center">
+                    <li class="list_li">
+                        <a href="#">პერსონალიზირებული საჩუქრები</a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">
+                            ყვავილების თაიგული
+                        </a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">
+                            შოკოლადის თაიგული
+                        </a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">სასაჩუქრე კალათები</a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">სადღესასწაულო ტორტები</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile_menu_block d-lg-none d-block">
+            <div class="container">
+                <div class="mobile_menu_items">
+                    <div class="nav_right_side d-flex align-items-center">
+                        <div class="burger_menu">
+                            <div class="burger__">
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_navigation">
+                <div class="container">
+                    <ul class="nav_ul">
+                        <li class="nav_li">
+                            <a href="#">
+                                პერსონალიზებული საჩუქრები
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">
+                                ყვავილების თაიგული
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">
+                                შოკოლადის თაიგული
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">სასაჩუქრე კალათები</a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">სადღესასწაულო ტორტები</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-4">
+                        <div class="filter_block">
+                            <div class="filter_info">
+                                <h4 class="filter_title">ადრესატის მიხედვით</h4>
+                                <label class="checkbox_container">ქალისთვის
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">კაცისთვის
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">გოგოსთვის
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">ბიჭისთვის
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">ბავშვებისთვის
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">ტურისტისთვის
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">საქმიანი ადამიანისთვის
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="filter_info">
+                                <h4 class="filter_title">დანიშნულების მიხედვით</h4>
+                                <label class="checkbox_container">დაბადების დღე
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">რომანტიკული
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">გასართობი
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">კრეატიული
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">საქორწილო
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox_container">სადღესასწაულო
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="filter_info">
+                                <h4 class="filter_title">ფასის მიხედვით</h4>
+                                <div class="d-flex price_filter">
+                                    <div class="filter_input">
+                                        <input type="text" placeholder="-დან">
+                                    </div>
+                                    <div class="filter_input">
+                                        <input type="text" placeholder="-მდე" class="mr-0">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-md-8">
+                        <div class="d-flex align-items-xl-center justify-content-between popular_info">
+                            <h2 class="title_ red_color mb-xl-0 mb-2">პერსონალიზირებული საჩუქრები</h2>
+                            <p class="additional_info">უფასო ტრანსპორტირება<span class="ml-1 info_span">50 ლარზე ზევით,
+                                    მომდევნო დღესვე</span></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_1.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">ღვინო ხვანჭკარა ხის ჩასადებში</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">65 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_2.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">წითელი ვარდებისა და რაფაელოების კომპოზიცია</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">125 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_2.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">წითელი ვარდებისა და რაფაელოების კომპოზიცია</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">125 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_3.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">ღვინო ხვანჭკარა ხის ჩასადებში</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">65 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_4.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">წითელი ვარდებისა და რაფაელოების კომპოზიცია</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">125 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_5.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">წითელი ვარდებისა და რაფაელოების კომპოზიცია</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">125 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_6.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">ღვინო ხვანჭკარა ხის ჩასადებში</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">65 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_2.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">წითელი ვარდებისა და რაფაელოების კომპოზიცია</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">125 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="product_block">
+                                    <div class="product_img">
+                                        <img src="img/img_2.png" alt="" class="img_fluid">
+                                    </div>
+                                    <p class="product_title">წითელი ვარდებისა და რაფაელოების კომპოზიცია</p>
+                                    <div class="d-flex align-items-lg-center justify-content-between price_block">
+                                        <div class="price_">125 ₾.</div>
+                                        <div class="addto_basket d-flex align-items-center">
+                                            <img src="img/bag_.svg" alt="">
+                                            <p>კალათაში დამატება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <a href="#">
+                                <div class="arrows_">
+                                    <img src="img/arrow_left.svg" alt="">
+                                </div>
+                            </a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">
+                                <div class="arrows_">
+                                    <img src="img/arrow_right.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer_">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 md-mb-0 mb-5">
+                    <div class="footer_info">
+                        <a href="#">
+                            <div class="footer_logo mb-4">
+                                <img src="img/logo _1.svg" alt="">
+                            </div>
+                        </a>
+                        <div class="copy_">Copyright 2021. Giftarea.Ge. ყველა უფლება დაცულია</div>
+                        <div class="created_">
+                            Created by <span class="created_by">ProService</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 md-mb-0 mb-5">
+                    <div class="footer_info border_none">
+                        <ul class="footer_ul">
+                            <li class="footer_li">
+                                <a href="#">პირობები და წესები</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">რეგისტრაცია</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">ბლოგი</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">მიტანის სერვისი</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 md-sm-0 mb-5">
+                    <div class="footer_info">
+                        <div class="footer_contact">
+                            <div class="contact_item d-flex align-items-center mb-4">
+                                <img src="img/headphonesalt.svg" alt="" class="mr-3">
+                                <a href="tel:032 2112255">032 2112255</a>
+                            </div>
+                            <div class="contact_item d-flex align-items-center">
+                                <img src="img/facebook.svg" alt="" class="mr-3">
+                                <a href="#">giftarea.ge</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="bank_item">
+                        <ul class="bank_ul">
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/tbc.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/visa.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/mastercard.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="plugin/swiperSlider/js/swiper.min.js"></script>
+    <script src="plugin/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="plugin/bootstrap-4.0.0/js/popper.min.js"></script>
+    <script src="plugin/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <script src="js/app.js?v=1"></script>
+
+    <script>
+        var swiper = new Swiper(".s1", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <script>
+        const tabButtons = document.querySelectorAll('.tab_buttons')
+        const tabContentBoxs = document.querySelectorAll('.tabs_box')
+
+        function removeActiveClassOnTabs(array1, array2) {
+            array1.forEach(function (tabContent) {
+                tabContent.classList.remove('show_tabs');
+            });
+            array2.forEach(function (tabButtons) {
+                tabButtons.classList.remove('tab_btn_act');
+            })
+        }
+
+        function selectTabs(button) {
+            let id = button.getAttribute('id');
+            removeActiveClassOnTabs(tabContentBoxs, tabButtons);
+            let tabContent = document.querySelector(`#${id}_content`);
+            tabContent.classList.add('show_tabs');
+            button.classList.add('tab_btn_act');
+        }
+        tabButtons.forEach(function (tabButtons) {
+            tabButtons.addEventListener('click', function () {
+                selectTabs(tabButtons);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

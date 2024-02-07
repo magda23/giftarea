@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>giftarea</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/swiperSlider/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" text="text/css" href="plugin/fontawesome/css/all.min.css">
+    <link rel="stylesheet" text="text/css" href="css/fonts.css">
+    <link rel="stylesheet" text="text/css" href="css/reset.css">
+    <link rel="stylesheet" text="text/css" href="css/style.css?v=1">
+    <link rel="stylesheet" text="text/css" href="css/responsive.css?v=1">
+</head>
+
+<body>
+    <header>
+        <div class="top_header">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="contact_item d-flex align-items-center">
+                        <img src="img/headphonesalt.svg" alt="" class="mr-1">
+                        <a href="tel:032 2112255">032 2112255</a>
+                    </div>
+                    <div class="contact_item d-flex align-items-center">
+                        <img src="img/facebook.svg" alt="" class="mr-1">
+                        <a href="#">giftarea.ge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container middle_header">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="logo_">
+                    <div class="logo_img">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                </a>
+                <div class="search_">
+                    <input type="text" placeholder="ვეძებ...">
+                    <img src="img/search.svg" alt="" class="search_icon">
+                </div>
+                <div class="authorization_block d-flex align-items-center">
+                    <button type="button" class="modal_btn" data-toggle="modal" data-target="#exampleModal">
+                        <div class="sign_ d-flex align-items-center">
+                            <p class="sign_title d-xl-block d-none">ავტორიზაცია</p>
+                            <img src="img/person-circle.svg" alt="">
+                        </div>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog sign_modal" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="tab_wrapper">
+                                        <div class="tab_buttons_wrap">
+                                            <ul>
+                                                <li id="tab1" class="tab_buttons tab_btn_act">
+                                                    <div class="tab_btn">
+                                                        <div>ავტორიზაცია</div>
+                                                    </div>
+                                                </li>
+                                                <li id="tab2" class="tab_buttons">
+                                                    <div class="tab_btn">
+                                                        <div>რეგისტრაცია</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tabs_content_block">
+                                            <div id="tab1_content" class="tabs_box show_tabs">
+                                                <div class="sign_block">
+                                                    <form>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="ელ.ფოსტა">
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="პაროლი">
+                                                        </div>
+                                                    </form>
+                                                    <ul class="unstyled save_check">
+                                                        <li>
+                                                            <input class="styled-checkbox" id="styled-checkbox-1"
+                                                                type="checkbox" value="value1">
+                                                            <label for="styled-checkbox-1">დამახსოვრება</label>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <button class="save_btn">
+                                                            ავტორიზაცია
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="tab2_content" class="tabs_box">
+                                                <div class="sign_block">
+                                                    <form>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="სახელი, გვარი">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div class="gender_select">
+                                                            <div class="select_block">
+                                                                <select class="selectpicker">
+                                                                    <option>სქესი</option>
+                                                                    <option>ქალი</option>
+                                                                    <option>კაცი</option>
+                                                                </select>
+                                                                <img src="img/icon_.svg" alt="" class="icon_">
+                                                            </div>
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="ელ.ფოსტა">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div
+                                                            class="password_block d-flex align-items-center justify-content-between">
+                                                            <div class="sign_input">
+                                                                <input type="text" placeholder="პაროლი">
+                                                            </div>
+                                                            <div class="sign_input">
+                                                                <input type="text" placeholder="გაიმეორეთ პაროლი">
+                                                                <img src="img/icon_.svg" alt="" class="icon_">
+                                                            </div>
+                                                        </div>
+                                                        <div class="sign_input">
+                                                            <input type="text" placeholder="სახელი, გვარი">
+                                                            <img src="img/icon_.svg" alt="" class="icon_">
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="select_birth_block">
+                                                                <select class="selectpicker">
+                                                                    <option>დღე</option>
+                                                                    <option>დღე</option>
+                                                                    <option>დღე</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select_birth_block ">
+                                                                <select class="selectpicker">
+                                                                    <option>თვე</option>
+                                                                    <option>თვე</option>
+                                                                    <option>თვე</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="select_birth_block ">
+                                                                <select class="selectpicker">
+                                                                    <option>წელი</option>
+                                                                    <option>წელი</option>
+                                                                    <option>წელი</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+                                                    </form>
+                                                    <ul class="unstyled save_check">
+                                                        <li>
+                                                            <input class="styled-checkbox" id="styled-checkbox-2"
+                                                                type="checkbox" value="value2">
+                                                            <label for="styled-checkbox-2">ვეთანხმები
+                                                                ხელშეკრულებას</label>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <button class="save_btn">
+                                                            რეგისტრაცია
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bag_">
+                        <img src="img/bag.svg" alt="">
+                        <div class="num_">
+                            <p>3</p>
+                        </div>
+                    </div>
+                    <div class="total_cost d-xl-block d-none">
+                        345 ლ.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header d-lg-block d-none">
+            <div class="container">
+                <ul class="list_ul d-flex align-items-center">
+                    <li class="list_li">
+                        <a href="#">პერსონალიზირებული საჩუქრები</a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">
+                            ყვავილების თაიგული
+                        </a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">
+                            შოკოლადის თაიგული
+                        </a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">სასაჩუქრე კალათები</a>
+                    </li>
+                    <li class="list_li">
+                        <a href="#">სადღესასწაულო ტორტები</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile_menu_block d-lg-none d-block">
+            <div class="container">
+                <div class="mobile_menu_items">
+                    <div class="nav_right_side d-flex align-items-center">
+                        <div class="burger_menu">
+                            <div class="burger__">
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_navigation">
+                <div class="container">
+                    <ul class="nav_ul">
+                        <li class="nav_li">
+                            <a href="#">
+                                პერსონალიზებული საჩუქრები
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">
+                                ყვავილების თაიგული
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">
+                                შოკოლადის თაიგული
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">სასაჩუქრე კალათები</a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#">სადღესასწაულო ტორტები</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main_section">
+            <div class="container">
+                <h4 class="secondary_title">
+                    პირობები და წესები
+                </h4>
+                <div class="conditions_list">
+                    <ol class="order_list">
+                        <li>ზოგადი პირობები
+                            <ol>
+                                <li>
+                                    წინამდებარე შეთანხმება არეგულირებს ურთიერთობას შპს „გიფტარეა"-ს ინტერნეტ მაღაზია
+                                    www.giftarea.ge-ს (შემდგომში „ვებ-გვერდი" ან „გამყიდველი") და ვებ-გვერდის
+                                    მომხმარებელს შორის.
+                                    <br>
+                                    ღილაკის–„ვეთანხმები" დაჭერა, აგრეთვე ვებ-გვერდის მეშვეობით მიღებული ინფორმაციის ან
+                                    მომსახურების გამოყენება გულისხმობს იმას, რომ მომხმარებელი გამოხატავს თანხმობას
+                                    შეასრულოს ამ მოხმარების წესებით დადგენილი პირობები.
+                                </li>
+                                <li>საიტზე რეგისტრაციის დროს მომხმარებელი ვალდებულია წარადგინოს ზუსტი და სრული
+                                    ინფორმაცია და ცვლილების შემთხვევაში მოახდინოს მისი განახლება.</li>
+                            </ol>
+                        </li>
+                        <li> ანგარიშსწორების პირობები
+                            <ol>
+                                <li>შეკვეთის ფასი მოიცავს შეძენილი პროდუქციის ღირებულებას, შეფუთვისა და გადაზიდვის
+                                    ღირებულების ჩათვლით. ვებ-გვერდი თავად უზრუნველყოფს გადახდასთან დაკავშირებული
+                                    საკომისიოს გადახდას.
+                                </li>
+                                <li>პროდუქციის ფასი მოცემულია ეროვნულ ვალუტაში და ანგარიშსწორება ხორციელდება ეროვნული
+                                    ვალუტით.
+                                </li>
+                                <li>მომხმარებელს შეუძლია www.giftarea.ge ზე შეძენილი პროდუქციის ღირებულება გადაიხადოს
+                                    საგადახდო ბარათის ან „ჩემი ბალანსის“ მეშვეობით.
+                                </li>
+                                <li>საგადახდო ბარათების მეშვეობით გადასახდელად გამოყენებულ უნდა იქნას საქართველოში
+                                    რეგისტრირებული კომერციული ბანკების მიერ ემიტირებული Visa და MasterCard სისტემების
+                                    საგადახდო ბარათები. გადახდის უსაფრთხოება დაცულია ,,Verified by Viza" და ,,MasterCard
+                                    Secure Code"ტექნოლოგიების გამოყენებით.
+                                </li>
+                                <li>„ჩემი ბალანსის" შევსება ხდება Nova-ს სწრაფი ჩარიცხვის აპარატების მეშვეობით.
+                                    მომხმარებელს ამისთვის სჭირდება თავისი უნიკალური ნომრის (მომხმარებლის ID) ის
+                                    მითითება.
+                                </li>
+                                <li>„ჩემი ბალანსი"-დან თანხის უკან დაბრუნებისათვის მომხმარებელმა უნდა შეავსოს სპეციალური
+                                    ფორმა კომპანიის ოფისში. თანხის ჩარიცხვა მოხდება ფორმის შევსებიდან არაუგვიანეს 3
+                                    სამუშაო დღისა. დასაბრუნებელ თანხას გამოაკლდება ოპერატორის და ბანკის მიერ დაწესებული
+                                    საკომისიო.
+                                </li>
+                            </ol>
+                        </li>
+                        <li>მიწოდების პირობები
+                            <ol>
+                                <li>პროდუქციის მიწოდება ხორციელდება ორი გზით: 1. ოფისიდან გატანა და 2. ადგილზე მიწოდება
+                                    <p>1. „ოფისიდან გატანის" შემთხვევაში მომხმარებელმა შეკვეთილი პროდუქცია უნდა გაიტანოს
+                                        მისამართიდან - თბილისი, ყაზბეგის გამზ #47 შეკვეთიდან 10 კალენდარული დღის
+                                        განმავლობაში. ამ ვადის გასვლის შემდეგ მოხდება მომხმარებელთან დაკავშირება,
+                                        დამატებითი გონივრული ვადის განსაზღვრა ან ადგილზე მიწოდების შეთავაზება. გონივრული
+                                        ვადის გასვლის შემდგომ და იმ შემთხვევაში თუ ვერ მოხდა მომხმარებელთან საკონტაქტო
+                                        მისამართზე დაკავშირება, საკუთრების უფლება გაყიდულ პროდუქციაზე გადადის
+                                        გამყიდველზე.</p>
+                                    <p>2. „ადგილზე მიწოდების" არჩევის შემთხვევაში პროდუქციის მიწოდება განხორციელდება
+                                        მომხმარებლის მიერ შეკვეთისას მითითებულ მისამართზე. შეკვეთისას მითითებული
+                                        მიწოდების სავარაუდო დროის გადაცილების შემთხვევაში ვებ-გვერდი აუცილებლად წინასწარ
+                                        გააფრთხილებს მომხმარებელს. მომხმარებელი მთლიანად იღებს პასუხისმგებლობას სწორად
+                                        მიუთითოს მიწოდების მისამართი და საკონტაქტო ტელეფონის ნომერი. არაზუსტი მისამართის
+                                        და ტელეფონის მითითების შემთხვევაში მოქმედებს 3.1.1 პუნქტში მითითებული ვადები და
+                                        პროცედურები.
+                                        თბილისის ტერიტორიაზე 50 ლარამდე პროდუქციის მიწოდების ღირებულება შეადგენს 4 ლარს,
+                                        50 ლარიდან კი ტრანსპორტირება უფასოა. რეგიონებში შეკვეთის მიწოდების ღირებულება 8
+                                        ლარია.
+                                    </p>
+                                </li>
+                                <li>
+                                    იმ შემთხვევაში, თუ მიწოდების თარიღი ემთხვევა სახელმწიფო დღესასწაულს, მაშინ მიწოდება
+                                    განხორციელდება მომდევნო პირველივე სამუშაო დღეს.
+                                </li>
+                                <li>
+                                    პროდუქციის ჩაბარება ხორციელდება მხოლოდ იმ პიროვნებაზე, რომელიც მითითებულია საიტზე
+                                    შეკვეთის მიმღებად. მიმღების იდენტიფიცირება მოხდება პირადობის დამადასტურებელი
+                                    დოკუმენტის საფუძველზე.
+                                </li>
+                                <li>
+                                    მომხმარებელი ვებ-გვერდის წარმომადგენლის თანდასწრებით ახდენს პროდუქციის გახსნას და
+                                    მის ვიზუალურ დათვალიერებას. მიღება-ჩაბარების დოკუმენტზე ხელის მოწერით მომხმარებელი
+                                    ადასტურებს მიწოდებული პროდუქციის სრულად მიღებას ნივთობრივად და უფლებრივად უნაკლო
+                                    მდგომარეობაში.
+                                </li>
+                                <li>
+                                    მომხმარებელი უფლებამოსილია უარი განაცხადოს იმ პროდუქციის არ მიღებაზე, რომელიც არ
+                                    შედიოდა შეკვეთაში ან/და მიწოდებულია დაზიანებულ მდგომარეობაში;
+                                </li>
+                                <li>
+                                    თუ მომხმარებელი პროდუქციას ჩაიბარებს ვიზუალური დათვალიერების გარეშე და არ
+                                    წამოაყენებს პრეტენზიას პროდუქციის დაზიანების შესახებ, მაშინ ითვლება, რომ
+                                    მომხმარებელმა პროდუქცია მიიღო უნაკლოდ, შეთანხმებული პირობებით.
+
+                                </li>
+                                <li>პროდუქტის მიღების შემდგომ საწარმოო წუნის ან სხვა დასაბუთებული პრეტენზიის შემთხვევაში
+                                    მომხმარებელი ვალდებულია მოიტანოს პროდუქტი კომპანიის ოფისში და შეავსოს სპეციალური
+                                    ფორმა, პროდუქტის ჩაბარებიდან არაუგვიანეს 5 სამუშაო დღისა. ამ ვადის გასვლის შემდგომ
+                                    პროდუქციის უკან მიღება არ მოხდება. პრეტენზიის დაკმაყოფილების შემთხვევაში, თანხის
+                                    დაბრუნება მოხდება ფორმის შევსებიდან, არაუგვიანეს სამი სამუშაო დღისა.
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            კონფიდენციალურობა
+                            <p>ვებ-გვერდი იღებს სრულ პასუხისმგებლობას დაიცვას მომხმარებლის პირადი ინფორმაცია და არ
+                                გადასცეს ის მესამე პირს მომხმარებლის თანხმობის გარეშე, გარდა იმ შემთხვევებისა, როდესაც
+                                არსებობს ინფორმაციის გაცემის ვალდებულება საქართველოს კანონმდებლობის შესაბამისად.</p>
+                            <p>საიტს არ გააჩნია წვდომა ანგარიშსწორებისას გამოყენებულ საგადახდო ბარათებზე. ბარათით
+                                ანგარიშსწორებისას ხდება გადამისამართება პარტნიორი ბანკის დაცულ გვერდზე, რომელიც მთლიანად
+                                პასუხისმგებელია ამ ინფორმაციის დაცვაზე.</p>
+                        </li>
+                        <li>
+                            ფორს-მაჟორი
+                            <p>შეთანხმებაში მონაწილე მხარეები არ არიან პასუხისმგებელნი ამ შეთანხმების პირობების
+                                შესრულებაზე იმ შემთხვევაში, თუ ეს გამოწვეულია ისეთი ფორს-მაჟორული მდგომარეობით, რომლის
+                                დროსაც მხარეთათვის მათი შესრულება შეუძლებელი ხდება. ფორს-მაჟორში იგულისხმება ომი,
+                                სტიქიური უბედურება (მიწისძვრა, წყალდიდობა, ხანძარი, მეწყერი, ეპიდემია). შეთანხმებით
+                                გათვალისწინებული ვალდებულებების შესრულების ვადები შესაბამისად გადაიწევს ფორს-მაჟორული
+                                გარემოებების მოქმედების ვადის მიხედვით. ამ დროს მხარე პასუხისმგებლობიდან თავისუფლდება
+                                მხოლოდ ფორს-მაჟორული გარემოების არსებობის პერიოდში. ეს ვალდებულებები დაუყოვნებლივ უნდა
+                                შესრულდეს ფორს-მაჟორული გარემოებების მოქმედების შეწყვეტის შემდეგ.
+                            </p>
+                        </li>
+                        <li>შეზღუდვა ვებ-გვერდის სისწორეზე
+                            <p>ვებ-გვერდზე განთავსებული ინფორმაციის დიდი ნაწილი მოწოდებულია პარტნიორი კომპანიებისგან. ეს
+                                ინფორმაცია შეძლებისდაგვარად გადის გადამოწმებას საიტზე განთავსებამდე. თუმცა ინფორმაციის
+                                მოცულობისა და სპეციფიკის გათვალისწინებით ვებ-გვერდი ვერ გასცემს გარანტიას მის სისრულეზე,
+                                დროულობაზე და სისწორეზე. მომხმარებელი ეცნობა, იყენებს და ენდობა ამ ინფორმაციას მხოლოდ
+                                საკუთარი რისკით.
+                            </p>
+                            <p>
+                                ადამიანური თუ მექანიკური შეცდომების დაშვების და სხვა ფაქტორების გათვალისწინებით, ამ
+                                ვებ-გვერდის შინაარსი მოწოდებულია არსებული ფორმით ანუ ”როგორც არის”. ვებ-გვერდი არ იძლევა
+                                სრულ გარანტიას და პირობას მის შემცველობასთან დაკავშირებით.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <p class="use_gift_conditons">სასაჩუქრე ბარათების გამოყენების წესი
+                    </p>
+                    <ol>
+                        <li>ზოგადი პირობები
+                            <p>1. ზოგადი პირობები
+                                წინამდებარე წესები განსაზღვრავს ელექტრონული სასაჩუქრე ბარათების მომსახურების გამოყენების
+                                პირობებს. ელექტრონული სასაჩუქრე ბარათების მოდული წარმოადგენს საიტის განუყოფელ ნაწილს და
+                                მასზე ვრცელდება საიტის ზოგადი პირობები და წესები <a
+                                    href="http://giftarea.ge/ge/about">http://giftarea.ge/ge/about</a>
+                            </p>
+                        </li>
+                        <li>გამოყენების წესები
+                            <p>ელექტრონული სასაჩუქრე ბარათების მოდულში შესვლა ხდება საიტის მთავარ მენიუში ღილაკის
+                                „სასაჩუქრე ბარათები“-ის მეშვებოთ. სანავიგაციო მენიუში გვხვდება მომსახურების 9 კატეგორია:
+                            </p>
+                            <ul class="list_items">
+                                <li>ტანსაცმელი და აქსესუარი;</li>
+                                <li>საყოფაცხოვრებო ტექნიკა;
+                                </li>
+                                <li>კვების ობიექტები;</li>
+                                <li>ჯანმრთელობა და სილამაზე;</li>
+                                <li>პარფიუმერია;
+                                </li>
+                                <li>გართობა;</li>
+                                <li>ტურიზმი და სასტუმროები;</li>
+                                <li>ავეჯი,ინტერიერი;</li>
+                                <li>სხვადასხვა</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <div class="condition_info">
+                        თითოეულ კატეგორიაში წარმოდგენილია ჩვენი პარტნიორი ორგანიზაციები, რომელთა მომსახურების/საქონლის
+                        შეძენა შესაძლებელია ელექტრონული სასაჩუქრე ბარათის მეშვეობით.
+                        <br>
+                        სასურველი კომპანიის ლოგოზე ღილაკის დაჭერის შემდეგ გადავდივართ სასაჩუქრე ბარათის გვერდზე, სადაც
+                        ხდება სასაჩუქრე ბარათის სასურველი თანხის არჩევა. გრაფაში „აღწერა“ მოცემულია პარნიორი კომპანიის
+                        ფილიალების მისამართები და კომპანიისთვის დამახასიათებელი სპეციფიკური წესები. ავტორიზაციის გავლის
+                        და ღილაკ „გადახდა“-ს დაჭერისას გადავდივართ გადახდის გვერდზე.
+                        <br>
+                        გადახდის გვერდზე წარმოდგენილია სავალდებულო ველები „მიმღების სახელი და გვარი“ და „მიმღების
+                        მობილური ნომერი“. ასევე გხვდება არასავალდებულო ველებიც: „მიმღების ელ-ფოსტა“ - მითითებულ
+                        ელ-ფოსტაზე ადრესატს მიუვა ელექტრონული სასაჩუქრე ბარათის კოდი და „მისალოცი ტექსტი“ - თუკი გსურთ
+                        ადრესატს გაუგზავნოთ მისალოცი ტექსტი sms-ით.
+                        <br>
+                        ასევე შესაძლებელია ადრესატისთვის სასაჩუქრე ბარათის დაბეჭდილი სახით გაგზავნაც. ამისათვის უნდა
+                        მონიშნოთ შესაბამისი ღილაკი გადახდის გვერდზე.
+                        ინფორმაციის შეყვანის შემდეგ აჭერთ ღილაკს „ყიდვის გაგრძელება“, ირჩევთ გადახდის მეთოდს - საბანკო
+                        ბარათი თუ ფეიბოქსი და ასრულებთ გადახდას.
+                        გადახდის დასრულებისას ადრესატს მითითებულ მობილურის ნომერზე მიუვა 6 ციფრა კოდი და მისალოცი ტექსტი
+                        (მითითების შემთხვევაში). ადრესატმა პარნიორ კომპანიაში სასურველი მომსახურების მისაღებად უნდა
+                        წარადგინოს პირადობის მოწმობა და ზემოაღნიშნული 6 ციფრა კოდი. ვერიფიკაციის შემდეგ ადრესატი შეძლებს
+                        სასურველი მომსახურების/საქონლის შეძენას სასაჩუქრე ბარათის ნომინალის ფარგლებში. პრობლემის
+                        არსებობის შემთხვევაში ადრესატს შეუძლია დაუკავშირდეს Giftarea.ge-ს ცხელ ხაზს ნომერზე 2112255.
+                        <br>
+                        სასაჩუქრე ბარათი ერთჯერადია და მასზე მითითებული თანხის შესატყვისი პროდუქცია გაიცემა ერთბაშად.
+                        ნაკლები ღირებულების საჩუქრის არჩევისას ფასთა სხვაობა ადრესატს არ უბრუნდება.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer_">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 md-mb-0 mb-5">
+                    <div class="footer_info">
+                        <a href="#">
+                            <div class="footer_logo mb-4">
+                                <img src="img/logo _1.svg" alt="">
+                            </div>
+                        </a>
+                        <div class="copy_">Copyright 2021. Giftarea.Ge. ყველა უფლება დაცულია</div>
+                        <div class="created_">
+                            Created by <span class="created_by">ProService</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 md-mb-0 mb-5">
+                    <div class="footer_info border_none">
+                        <ul class="footer_ul">
+                            <li class="footer_li">
+                                <a href="#">პირობები და წესები</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">რეგისტრაცია</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">ბლოგი</a>
+                            </li>
+                            <li class="footer_li">
+                                <a href="#">მიტანის სერვისი</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 md-sm-0 mb-5">
+                    <div class="footer_info">
+                        <div class="footer_contact">
+                            <div class="contact_item d-flex align-items-center mb-4">
+                                <img src="img/headphonesalt.svg" alt="" class="mr-3">
+                                <a href="tel:032 2112255">032 2112255</a>
+                            </div>
+                            <div class="contact_item d-flex align-items-center">
+                                <img src="img/facebook.svg" alt="" class="mr-3">
+                                <a href="#">giftarea.ge</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="bank_item">
+                        <ul class="bank_ul">
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/tbc.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/visa.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="bank_li">
+                                <a href="#">
+                                    <img src="img/mastercard.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="plugin/swiperSlider/js/swiper.min.js"></script> -->
+    <script src="plugin/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="plugin/bootstrap-4.0.0/js/popper.min.js"></script>
+    <script src="plugin/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <script src="js/app.js?v=1"></script>
+
+    <script>
+        const tabButtons = document.querySelectorAll('.tab_buttons')
+        const tabContentBoxs = document.querySelectorAll('.tabs_box')
+
+        function removeActiveClassOnTabs(array1, array2) {
+            array1.forEach(function (tabContent) {
+                tabContent.classList.remove('show_tabs');
+            });
+            array2.forEach(function (tabButtons) {
+                tabButtons.classList.remove('tab_btn_act');
+            })
+        }
+
+        function selectTabs(button) {
+            let id = button.getAttribute('id');
+            removeActiveClassOnTabs(tabContentBoxs, tabButtons);
+            let tabContent = document.querySelector(`#${id}_content`);
+            tabContent.classList.add('show_tabs');
+            button.classList.add('tab_btn_act');
+        }
+        tabButtons.forEach(function (tabButtons) {
+            tabButtons.addEventListener('click', function () {
+                selectTabs(tabButtons);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
